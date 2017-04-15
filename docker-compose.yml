@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  jupyter:
+    container_name: workshop
+    image: radchenko/workshop
+    working_dir: /notebooks
+    ports:
+      - "7777:8888"
+    volumes:
+      - .:/notebooks
+
