@@ -12,7 +12,7 @@
 - перейти в командной строке/терминале в скачанный каталог workshop
 - выполнить docker-compose up. Первый раз это займет продолжительное время
 - открыть localhost:7777 (в файле *docker-compose.yml* можно поменять порт 7777 на любой другой)
-- далее можно выполнить тетрадку [check_docker.ipynb](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_notebooks/check_docker.ipynb) и убедиться, что нужные библиотеки подключаются
+- далее можно выполнить тетрадку [check_docker.ipynb](https://github.com/udsclub/workshop/blob/master/notebooks/check_docker.ipynb) и убедиться, что нужные библиотеки подключаются
 
 Контейнеры Docker, как правило, занимают много места на диске.
 - *docker ps* – посмотреть весь список контейнеров
